@@ -1,0 +1,26 @@
+# #user Request
+# GET http://localhost:3000/users
+
+# POST http://localhost:3000/users/add
+# Content-Type: application/json
+
+# {
+# "user":{
+#     "phone":200221100,
+#      "fullname":"Hoài Nam 1"
+#    } 
+# }
+
+# PATCH http://localhost:3000/users
+# Content-Type: application/json
+
+# {
+#   "data":{
+#     "id":"64222fcbd932186eedf4a6a53",
+#   "gift":"dasdadsa"
+#   }
+# }
+
+
+# DELETE http://localhost:3000/users/64223e9833f94dcbfb275730
+

@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "nodemon --inspect sever.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "moment-timezone": "^0.5.43",
+    "mongodb": "^5.1.0",
+    "mongoose": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

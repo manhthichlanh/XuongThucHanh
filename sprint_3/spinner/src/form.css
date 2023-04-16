@@ -1,0 +1,92 @@
+.login-box {
+    width: 320px;
+    height: 420px;
+    background: #333333;
+    color: #ffffff;
+
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    padding: 70px 30px;
+    border-radius: 10px;
+  }
+  
+  .login-box h3 {
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .login-box .user-box {
+    position: relative;
+  }
+  
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    outline: none;
+    background: transparent;
+  }
+  
+  .login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #ffffff;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+  
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #4caf50;
+    font-size: 12px;
+  }
+  
+  .btn-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .btn {
+    display: flex;
+    justify-content: center;
+    min-width: 65px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .btn-create {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .btn-addnew {
+    background-color: #fff;
+    color: #000000;
+  }
+  .btn-create:hover {
+    background: #ffffff;
+    color: #000000;
+  }
+  .btn-addnew:hover {
+    background: #4caf50;
+    color: #fff;
+  }
+  /* .login-box a:hover {
+    background: #ffffff;
+    color: #000000;
+  } */
